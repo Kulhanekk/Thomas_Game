@@ -1,10 +1,12 @@
 #include <Arduino.h>
 #include <notes.h>
+#include <note_shuffle.h>
 
 #define BUZZER_PIN 8
 
 void setup()
 {
+	
 }
 
 void loop()
