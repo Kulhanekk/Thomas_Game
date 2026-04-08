@@ -16,11 +16,11 @@ void shuffle_array(int **array, int array_size)
     }
 }
 
-void init_note_array()
+void init_note_array(int array_size)
 {
-    for (size_t i = 0; i < N_OF_NOTES; i++)
+    for (size_t i = 0; i < array_size; i++)
     {
         note_idx_array[i] = i;
     }
-    shuffle_array((int **)&note_idx_array, N_OF_NOTES);
+    shuffle_array((int **)&note_idx_array, array_size);
 }

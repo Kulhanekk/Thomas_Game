@@ -4,9 +4,11 @@
 
 #define BUZZER_PIN 8
 
+int note_idx_array[N_OF_NOTES];
+
 void setup()
 {
-	
+	init_note_array(N_OF_NOTES);
 }
 
 void loop()
