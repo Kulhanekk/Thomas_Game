@@ -4,6 +4,6 @@
 extern int note_idx_array[];
 
 void shuffle_array(int **array, int array_size);
-void init_note_array(int array_size);
+void init_note_array(unsigned int array_size);
 
 #endif

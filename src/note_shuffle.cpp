@@ -9,6 +9,7 @@ void shuffle_array(int **array, int array_size)
 {
     for (int i = 0; i < array_size; i++)
     {
+        Serial.println((*array)[i]);
         int n = random(0, array_size);
         int temp = (*array)[n];
         (*array)[n] = (*array)[i];
@@ -16,7 +17,7 @@ void shuffle_array(int **array, int array_size)
     }
 }
 
-void init_note_array(int array_size)
+void init_note_array(unsigned int array_size)
 {
     for (size_t i = 0; i < array_size; i++)
     {
